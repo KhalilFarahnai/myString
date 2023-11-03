@@ -6,6 +6,7 @@
 using namespace std;
 
 namespace myString {
+
     //this function for reading string
     string readString() {
         string str;
@@ -77,7 +78,7 @@ namespace myString {
         return str;
     }
 
-    //return string such that the first is capital and the other is lower case
+    //return string such the first is capital and the other is lower case
     string capitalize(string str) {
         int i;
         for (i = 0; i < len(str); i++) {
@@ -668,6 +669,9 @@ namespace myString {
         str1 = str2;
         str2 = tmp;
     }
+
+
+
 }
 
 
